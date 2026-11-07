@@ -43,14 +43,17 @@ classifiers = [
     "Topic :: Games/Entertainment :: Board Games"
 ]
 
-dependencies = []
+dependencies = [
+    "python-chess>=1.999",
+]
 
 [project.optional-dependencies]
 
 dev = [
     "pytest",
     "ruff",
-    "mypy"
+    "mypy",
+    "pytest-cov>=7.1.0",
 ]
 
 security = [
