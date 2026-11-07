@@ -18,17 +18,17 @@ jobs:
     steps:
     - uses: actions/checkout@v5
     
-    - name: Set up Python 3.10.22
+    - name: Set up Python 3.10
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10.22'
+        python-version: '3.10'
         
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pytest
-        # Αν έχετε αρχείο requirements.txt ή setup.py, κάντε uncomment την επόμενη γραμμή:
-        # pip install -e . 
+        # Εγκατάσταση του project σε editable mode ώστε η Python να βλέπει το src/chessmentor
+        pip install -e .
         
     - name: Lint with flake8
       run: |
@@ -38,4 +38,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
         
     - name: Run tests
+      env:
+        PYTHONPATH: src
       run: python -m pytest
