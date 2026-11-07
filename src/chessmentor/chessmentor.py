@@ -5,5 +5,3 @@
 
 class ChessMentor:
     """Main ChessMentor application."""
-
-    ...
