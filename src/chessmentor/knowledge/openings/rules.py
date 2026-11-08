@@ -1,11 +1,11 @@
-"""Opening recognition rules."""
+"""Opening rules."""
 
 
 def moves_match(
     game_moves: list[str],
     opening_moves: list[str],
 ) -> bool:
-    """Check whether a game follows an opening."""
+    """Check opening match."""
 
     if len(game_moves) < len(opening_moves):
         return False

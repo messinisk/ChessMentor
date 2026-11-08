@@ -7,11 +7,8 @@ from dataclasses import dataclass
 class Opening:
     """Opening model"""
     id: str
-
     name_en: str
     name_el: str
-
-    eco: str
-
     moves: list[str]
+    eco: str | None = None  
     parent: str | None = None
