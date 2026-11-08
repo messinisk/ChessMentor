@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ruy_lopez",
+    "category": "openings",
+    "name_en": "Ruy Lopez",
+    "name_el": "Ρουί Λόπεζ",
+    "difficulty": 2
+  },
+  {
+    "id": "italian_game",
+    "category": "openings",
+    "name_en": "Italian Game",
+    "name_el": "Ιταλική Παρτίδα",
+    "difficulty": 1
+  },
+  {
+    "id": "scotch_game",
+    "category": "openings",
+    "name_en": "Scotch Game",
+    "name_el": "Σκωτσέζικη Παρτίδα",
+    "difficulty": 2
+  },
+  {
+    "id": "sicilian_defense",
+    "category": "openings",
+    "name_en": "Sicilian Defense",
+    "name_el": "Σικελική Άμυνα",
+    "difficulty": 3
+  },
+  {
+    "id": "french_defense",
+    "category": "openings",
+    "name_en": "French Defense",
+    "name_el": "Γαλλική Άμυνα",
+    "difficulty": 2
+  },
+  {
+    "id": "caro_kann",
+    "category": "openings",
+    "name_en": "Caro-Kann Defense",
+    "name_el": "Άμυνα Κάρο-Καν",
+    "difficulty": 2
+  },
+  {
+    "id": "queens_gambit",
+    "category": "openings",
+    "name_en": "Queen's Gambit",
+    "name_el": "Γκαμπί της Βασίλισσας",
+    "difficulty": 2
+  }
+]

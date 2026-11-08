@@ -1,19 +1,17 @@
-"""_summary_
-
-Returns:
-    _type_: _description_
-"""
+"""Database connection."""
 
 import sqlite3
+from pathlib import Path
 
 
-def create_connection(address: str = ":memory:"):
-    """_summary_
+def create_connection(
+    db_path: str = "data/database/chessmentor.db",
+) -> sqlite3.Connection:
+    """Create SQLite connection."""
 
-    Args:
-        address (_type_, optional): _description_. Defaults to ":memory:".
+    Path(db_path).parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    Returns:
-        _type_: _description_
-    """
-    return sqlite3.connect(address)
+    return sqlite3.connect(db_path)

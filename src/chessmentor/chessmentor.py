@@ -1,7 +1,5 @@
-# src/chessmentor/chessmentor.py
-
 """ChessMentor main facade."""
 
 
-class ChessMentor:
+class ChessMentor:  # pylint: disable=too-few-public-methods
     """Main ChessMentor application."""

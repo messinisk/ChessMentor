@@ -1,4 +1,4 @@
-# src/chessmentor/__init__.py
+"""ChessMentor package."""
 
 from .chessmentor import ChessMentor
 

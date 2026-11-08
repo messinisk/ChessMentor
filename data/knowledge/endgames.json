@@ -1,0 +1,51 @@
+[
+  {
+    "id": "king_and_pawn",
+    "category": "endgames",
+    "name_en": "King and Pawn Endgame",
+    "name_el": "Φινάλε Βασιλιά και Πιονιού",
+    "difficulty": 1
+  },
+  {
+    "id": "opposition",
+    "category": "endgames",
+    "name_en": "Opposition",
+    "name_el": "Αντιπολίτευση",
+    "difficulty": 1
+  },
+  {
+    "id": "triangulation",
+    "category": "endgames",
+    "name_en": "Triangulation",
+    "name_el": "Τριγωνοποίηση",
+    "difficulty": 2
+  },
+  {
+    "id": "lucena",
+    "category": "endgames",
+    "name_en": "Lucena Position",
+    "name_el": "Θέση Λουτσένα",
+    "difficulty": 3
+  },
+  {
+    "id": "philidor",
+    "category": "endgames",
+    "name_en": "Philidor Position",
+    "name_el": "Θέση Φιλιντόρ",
+    "difficulty": 3
+  },
+  {
+    "id": "rook_endgame",
+    "category": "endgames",
+    "name_en": "Rook Endgame",
+    "name_el": "Φινάλε Πύργων",
+    "difficulty": 2
+  },
+  {
+    "id": "bishop_vs_knight",
+    "category": "endgames",
+    "name_en": "Bishop versus Knight",
+    "name_el": "Αξιωματικός εναντίον Ίππου",
+    "difficulty": 3
+  }
+]

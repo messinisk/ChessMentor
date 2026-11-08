@@ -1,0 +1,247 @@
+[
+  {
+    "id": "fork",
+    "category": "tactics",
+    "name_en": "Fork",
+    "name_el": "Πιρούνι",
+    "difficulty": 1
+  },
+  {
+    "id": "pin",
+    "category": "tactics",
+    "name_en": "Pin",
+    "name_el": "Κάρφωμα",
+    "difficulty": 1
+  },
+  {
+    "id": "skewer",
+    "category": "tactics",
+    "name_en": "Skewer",
+    "name_el": "Σούβλισμα",
+    "difficulty": 1
+  },
+  {
+    "id": "double_attack",
+    "category": "tactics",
+    "name_en": "Double Attack",
+    "name_el": "Διπλή Επίθεση",
+    "difficulty": 1
+  },
+  {
+    "id": "discovered_attack",
+    "category": "tactics",
+    "name_en": "Discovered Attack",
+    "name_el": "Ανακαλυπτόμενη Επίθεση",
+    "difficulty": 2
+  },
+  {
+    "id": "discovered_check",
+    "category": "tactics",
+    "name_en": "Discovered Check",
+    "name_el": "Ανακαλυπτόμενο Σαχ",
+    "difficulty": 2
+  },
+  {
+    "id": "double_check",
+    "category": "tactics",
+    "name_en": "Double Check",
+    "name_el": "Διπλό Σαχ",
+    "difficulty": 2
+  },
+  {
+    "id": "xray_attack",
+    "category": "tactics",
+    "name_en": "X-Ray Attack",
+    "name_el": "Επίθεση Ακτίνας Χ",
+    "difficulty": 3
+  },
+  {
+    "id": "battery",
+    "category": "tactics",
+    "name_en": "Battery",
+    "name_el": "Μπαταρία",
+    "difficulty": 2
+  },
+  {
+    "id": "overloading",
+    "category": "tactics",
+    "name_en": "Overloading",
+    "name_el": "Υπερφόρτωση",
+    "difficulty": 3
+  },
+  {
+    "id": "remove_defender",
+    "category": "tactics",
+    "name_en": "Removing the Defender",
+    "name_el": "Απομάκρυνση Αμυνόμενου",
+    "difficulty": 2
+  },
+  {
+    "id": "deflection",
+    "category": "tactics",
+    "name_en": "Deflection",
+    "name_el": "Εκτροπή",
+    "difficulty": 2
+  },
+  {
+    "id": "decoy",
+    "category": "tactics",
+    "name_en": "Decoy",
+    "name_el": "Παραπλάνηση",
+    "difficulty": 2
+  },
+  {
+    "id": "interference",
+    "category": "tactics",
+    "name_en": "Interference",
+    "name_el": "Παρεμβολή",
+    "difficulty": 2
+  },
+  {
+    "id": "distraction",
+    "category": "tactics",
+    "name_en": "Distraction",
+    "name_el": "Απόσπαση",
+    "difficulty": 2
+  },
+  {
+    "id": "attraction",
+    "category": "tactics",
+    "name_en": "Attraction",
+    "name_el": "Έλξη",
+    "difficulty": 2
+  },
+  {
+    "id": "zwischenzug",
+    "category": "tactics",
+    "name_en": "Zwischenzug",
+    "name_el": "Ενδιάμεση Κίνηση",
+    "difficulty": 3
+  },
+  {
+    "id": "tempo_move",
+    "category": "tactics",
+    "name_en": "Tempo Move",
+    "name_el": "Κίνηση με Τέμπο",
+    "difficulty": 1
+  },
+  {
+    "id": "mating_threat",
+    "category": "tactics",
+    "name_en": "Mating Threat",
+    "name_el": "Απειλή Ματ",
+    "difficulty": 1
+  },
+  {
+    "id": "trapped_queen",
+    "category": "tactics",
+    "name_en": "Trapped Queen",
+    "name_el": "Παγιδευμένη Βασίλισσα",
+    "difficulty": 2
+  },
+  {
+    "id": "trapped_rook",
+    "category": "tactics",
+    "name_en": "Trapped Rook",
+    "name_el": "Παγιδευμένος Πύργος",
+    "difficulty": 2
+  },
+  {
+    "id": "trapped_bishop",
+    "category": "tactics",
+    "name_en": "Trapped Bishop",
+    "name_el": "Παγιδευμένος Αξιωματικός",
+    "difficulty": 2
+  },
+  {
+    "id": "trapped_knight",
+    "category": "tactics",
+    "name_en": "Trapped Knight",
+    "name_el": "Παγιδευμένος Ίππος",
+    "difficulty": 2
+  },
+  {
+    "id": "pawn_sacrifice",
+    "category": "tactics",
+    "name_en": "Pawn Sacrifice",
+    "name_el": "Θυσία Πιονιού",
+    "difficulty": 2
+  },
+  {
+    "id": "exchange_sacrifice",
+    "category": "tactics",
+    "name_en": "Exchange Sacrifice",
+    "name_el": "Θυσία Ποιότητας",
+    "difficulty": 3
+  },
+  {
+    "id": "piece_sacrifice",
+    "category": "tactics",
+    "name_en": "Piece Sacrifice",
+    "name_el": "Θυσία Κομματιού",
+    "difficulty": 3
+  },
+  {
+    "id": "queen_sacrifice",
+    "category": "tactics",
+    "name_en": "Queen Sacrifice",
+    "name_el": "Θυσία Βασίλισσας",
+    "difficulty": 4
+  },
+  {
+    "id": "greek_gift",
+    "category": "tactics",
+    "name_en": "Greek Gift",
+    "name_el": "Ελληνικό Δώρο",
+    "difficulty": 4
+  },
+  {
+    "id": "back_rank_mate",
+    "category": "tactics",
+    "name_en": "Back Rank Mate",
+    "name_el": "Ματ Πίσω Γραμμής",
+    "difficulty": 1
+  },
+  {
+    "id": "smothered_mate",
+    "category": "tactics",
+    "name_en": "Smothered Mate",
+    "name_el": "Πνιχτό Ματ",
+    "difficulty": 3
+  },
+  {
+    "id": "anastasia_mate",
+    "category": "tactics",
+    "name_en": "Anastasia's Mate",
+    "name_el": "Ματ Αναστασίας",
+    "difficulty": 4
+  },
+  {
+    "id": "arabian_mate",
+    "category": "tactics",
+    "name_en": "Arabian Mate",
+    "name_el": "Αραβικό Ματ",
+    "difficulty": 4
+  },
+  {
+    "id": "boden_mate",
+    "category": "tactics",
+    "name_en": "Boden Mate",
+    "name_el": "Ματ Boden",
+    "difficulty": 4
+  },
+  {
+    "id": "perpetual_check",
+    "category": "tactics",
+    "name_en": "Perpetual Check",
+    "name_el": "Διαρκές Σαχ",
+    "difficulty": 2
+  },
+  {
+    "id": "counterattack",
+    "category": "tactics",
+    "name_en": "Counterattack",
+    "name_el": "Αντεπίθεση",
+    "difficulty": 2
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "id": "isolated_pawn",
+    "category": "strategy",
+    "name_en": "Isolated Pawn",
+    "name_el": "Απομονωμένο Πιόνι",
+    "difficulty": 2
+  },
+  {
+    "id": "doubled_pawns",
+    "category": "strategy",
+    "name_en": "Doubled Pawns",
+    "name_el": "Διπλωμένα Πιόνια",
+    "difficulty": 1
+  },
+  {
+    "id": "backward_pawn",
+    "category": "strategy",
+    "name_en": "Backward Pawn",
+    "name_el": "Οπισθοδρομικό Πιόνι",
+    "difficulty": 2
+  },
+  {
+    "id": "passed_pawn",
+    "category": "strategy",
+    "name_en": "Passed Pawn",
+    "name_el": "Περασμένο Πιόνι",
+    "difficulty": 1
+  },
+  {
+    "id": "connected_passed_pawns",
+    "category": "strategy",
+    "name_en": "Connected Passed Pawns",
+    "name_el": "Συνδεδεμένα Περασμένα Πιόνια",
+    "difficulty": 2
+  },
+  {
+    "id": "pawn_majority",
+    "category": "strategy",
+    "name_en": "Pawn Majority",
+    "name_el": "Πλειοψηφία Πιονιών",
+    "difficulty": 2
+  },
+  {
+    "id": "pawn_chain",
+    "category": "strategy",
+    "name_en": "Pawn Chain",
+    "name_el": "Αλυσίδα Πιονιών",
+    "difficulty": 1
+  },
+  {
+    "id": "hanging_pawns",
+    "category": "strategy",
+    "name_en": "Hanging Pawns",
+    "name_el": "Κρεμαστά Πιόνια",
+    "difficulty": 3
+  },
+  {
+    "id": "outpost",
+    "category": "strategy",
+    "name_en": "Outpost",
+    "name_el": "Φυλάκιο",
+    "difficulty": 2
+  },
+  {
+    "id": "weak_square",
+    "category": "strategy",
+    "name_en": "Weak Square",
+    "name_el": "Αδύναμο Τετράγωνο",
+    "difficulty": 2
+  },
+  {
+    "id": "strong_square",
+    "category": "strategy",
+    "name_en": "Strong Square",
+    "name_el": "Ισχυρό Τετράγωνο",
+    "difficulty": 2
+  },
+  {
+    "id": "center_control",
+    "category": "strategy",
+    "name_en": "Center Control",
+    "name_el": "Έλεγχος Κέντρου",
+    "difficulty": 1
+  },
+  {
+    "id": "space_advantage",
+    "category": "strategy",
+    "name_en": "Space Advantage",
+    "name_el": "Πλεονέκτημα Χώρου",
+    "difficulty": 2
+  },
+  {
+    "id": "restriction",
+    "category": "strategy",
+    "name_en": "Restriction",
+    "name_el": "Περιορισμός",
+    "difficulty": 3
+  },
+  {
+    "id": "piece_activity",
+    "category": "strategy",
+    "name_en": "Piece Activity",
+    "name_el": "Ενεργητικότητα Κομματιών",
+    "difficulty": 1
+  },
+  {
+    "id": "piece_coordination",
+    "category": "strategy",
+    "name_en": "Piece Coordination",
+    "name_el": "Συντονισμός Κομματιών",
+    "difficulty": 2
+  },
+  {
+    "id": "development",
+    "category": "strategy",
+    "name_en": "Development",
+    "name_el": "Ανάπτυξη",
+    "difficulty": 1
+  },
+  {
+    "id": "initiative",
+    "category": "strategy",
+    "name_en": "Initiative",
+    "name_el": "Πρωτοβουλία",
+    "difficulty": 2
+  },
+  {
+    "id": "good_bishop",
+    "category": "strategy",
+    "name_en": "Good Bishop",
+    "name_el": "Καλός Αξιωματικός",
+    "difficulty": 2
+  },
+  {
+    "id": "bad_bishop",
+    "category": "strategy",
+    "name_en": "Bad Bishop",
+    "name_el": "Κακός Αξιωματικός",
+    "difficulty": 2
+  },
+  {
+    "id": "bishop_pair",
+    "category": "strategy",
+    "name_en": "Bishop Pair",
+    "name_el": "Ζεύγος Αξιωματικών",
+    "difficulty": 2
+  },
+  {
+    "id": "strong_knight",
+    "category": "strategy",
+    "name_en": "Strong Knight",
+    "name_el": "Ισχυρός Ίππος",
+    "difficulty": 2
+  },
+  {
+    "id": "open_file",
+    "category": "strategy",
+    "name_en": "Open File",
+    "name_el": "Ανοιχτή Στήλη",
+    "difficulty": 1
+  },
+  {
+    "id": "semi_open_file",
+    "category": "strategy",
+    "name_en": "Semi-Open File",
+    "name_el": "Ημι-Ανοιχτή Στήλη",
+    "difficulty": 1
+  },
+  {
+    "id": "doubled_rooks",
+    "category": "strategy",
+    "name_en": "Doubled Rooks",
+    "name_el": "Διπλοί Πύργοι",
+    "difficulty": 2
+  },
+  {
+    "id": "seventh_rank_invasion",
+    "category": "strategy",
+    "name_en": "Seventh Rank Invasion",
+    "name_el": "Διείσδυση στην 7η Γραμμή",
+    "difficulty": 2
+  },
+  {
+    "id": "king_safety",
+    "category": "strategy",
+    "name_en": "King Safety",
+    "name_el": "Ασφάλεια Βασιλιά",
+    "difficulty": 1
+  },
+  {
+    "id": "king_attack",
+    "category": "strategy",
+    "name_en": "King Attack",
+    "name_el": "Επίθεση στον Βασιλιά",
+    "difficulty": 2
+  },
+  {
+    "id": "prophylaxis",
+    "category": "strategy",
+    "name_en": "Prophylaxis",
+    "name_el": "Προφύλαξη",
+    "difficulty": 4
+  },
+  {
+    "id": "conversion_of_advantage",
+    "category": "strategy",
+    "name_en": "Converting Advantage",
+    "name_el": "Μετατροπή Πλεονεκτήματος",
+    "difficulty": 3
+  },
+  {
+    "id": "positional_improvement",
+    "category": "strategy",
+    "name_en": "Positional Improvement",
+    "name_el": "Βελτίωση Θέσης",
+    "difficulty": 2
+  }
+]

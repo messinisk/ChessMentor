@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fundamental_development",
+    "category": "fundamentals",
+    "name_en": "Development",
+    "name_el": "Ανάπτυξη",
+    "difficulty": 1
+  },
+  {
+    "id": "center_control",
+    "category": "fundamentals",
+    "name_en": "Center Control",
+    "name_el": "Έλεγχος Κέντρου",
+    "difficulty": 1
+  },
+  {
+    "id": "king_safety",
+    "category": "fundamentals",
+    "name_en": "King Safety",
+    "name_el": "Ασφάλεια Βασιλιά",
+    "difficulty": 1
+  },
+  {
+    "id": "castling",
+    "category": "fundamentals",
+    "name_en": "Castling",
+    "name_el": "Ροκέ",
+    "difficulty": 1
+  },
+  {
+    "id": "piece_activity",
+    "category": "fundamentals",
+    "name_en": "Piece Activity",
+    "name_el": "Ενεργητικότητα Κομματιών",
+    "difficulty": 1
+  },
+  {
+    "id": "tempo",
+    "category": "fundamentals",
+    "name_en": "Tempo",
+    "name_el": "Τέμπο",
+    "difficulty": 1
+  },
+  {
+    "id": "initiative",
+    "category": "fundamentals",
+    "name_en": "Initiative",
+    "name_el": "Πρωτοβουλία",
+    "difficulty": 2
+  }
+]
