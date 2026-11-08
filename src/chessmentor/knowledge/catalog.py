@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from chessmentor.models.opening import Opening
 from chessmentor.models.pattern import Pattern
 
 
@@ -20,7 +21,7 @@ class KnowledgeCatalog:
     def _load_file(
         self,
         filename: str,
-    ) -> list:
+    ) -> list[Pattern]:
         """Load patterns from JSON file."""
 
         path = self.knowledge_dir / filename
@@ -60,32 +61,20 @@ class KnowledgeCatalog:
 
         patterns: list[Pattern] = []
 
-        patterns.extend(
-            self.load_fundamentals()
-        )
+        patterns.extend(self.load_fundamentals())
 
-        patterns.extend(
-            self.load_openings()
-        )
+        patterns.extend(self.load_openings())
 
-        patterns.extend(
-            self.load_tactics()
-        )
+        patterns.extend(self.load_tactics())
 
-        patterns.extend(
-            self.load_strategy()
-        )
+        patterns.extend(self.load_strategy())
 
-        patterns.extend(
-            self.load_endgames()
-        )
+        patterns.extend(self.load_endgames())
 
         return patterns
 
-    def get_by_id(
-        self,
-        pattern_id: str,
-    ) -> Pattern | None:
+    def get_by_id(self,pattern_id: str,
+        ) -> Pattern | None:
         """Find pattern by ID."""
 
         for pattern in self.load_all():
@@ -94,9 +83,8 @@ class KnowledgeCatalog:
 
         return None
 
-    def load_fundamentals(
-        self,
-    ) -> list[Pattern]:
+    def load_fundamentals(self,
+        ) -> list[Pattern]:
         """Load fundamentals."""
 
         return self._load_file(
@@ -104,9 +92,8 @@ class KnowledgeCatalog:
         )
 
 
-    def load_openings(
-        self,
-    ) -> list[Pattern]:
+    def load_openings(self,
+        ) -> list[Pattern]:
         """Load openings."""
 
         return self._load_file(
@@ -114,11 +101,80 @@ class KnowledgeCatalog:
         )
 
 
-    def load_endgames(
-        self,
-    ) -> list[Pattern]:
+    def load_endgames(self,
+        ) -> list[Pattern]:
         """Load endgames."""
 
         return self._load_file(
             "endgames.json",
         )
+
+
+class OpeningCatalog:
+    """Load chess openings."""
+
+    def __init__(
+        self,
+        path: str = "data/knowledge/openings.json",
+    ) -> None:
+        self.path = Path(path)
+
+    def load(self) -> list:
+        """Load openings."""
+
+        with self.path.open(
+            encoding="utf-8"
+        ) as handle:
+            data = json.load(handle)
+
+        return [
+            Opening(
+                id=item["id"],
+                name_en=item["name_en"],
+                name_el=item["name_el"],
+                eco=item["eco"],
+                moves=item["moves"],
+                parent=item.get("parent"),
+            )
+            for item in data
+        ]
+
+
+    def get_by_id(
+        self,
+        opening_id: str,
+    ) -> Opening | None:
+        """Get opening by id."""
+
+        for opening in self.load():
+
+            if opening.id == opening_id:
+                return opening
+
+        return None
+
+
+    def get_by_eco(
+        self,
+        eco: str,
+    ) -> Opening | None:
+        """Get opening by ECO."""
+
+        for opening in self.load():
+
+            if opening.eco == eco:
+                return opening
+
+        return None
+
+    def get_children(
+        self,
+        parent_id: str,
+    ) -> list:
+        """Get opening variations."""
+
+        return [
+            opening
+            for opening in self.load()
+            if opening.parent == parent_id
+        ]

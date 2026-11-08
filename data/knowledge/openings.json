@@ -7,12 +7,86 @@
     "difficulty": 2
   },
   {
-    "id": "italian_game",
-    "category": "openings",
-    "name_en": "Italian Game",
-    "name_el": "Ιταλική Παρτίδα",
-    "difficulty": 1
-  },
+  "id": "italian_game",
+  "eco": "C50",
+  "category": "openings",
+  "name_en": "Italian Game",
+  "name_el": "Ιταλική Παρτίδα",
+  "difficulty": 1,
+  "parent": null,
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4"
+  ]
+},
+{
+  "id": "giuoco_piano",
+
+  "parent": "italian_game",
+  "category": "openings",
+  "name_el": "giuoco piano",
+  "difficulty": 1,
+
+  "name_en": "Giuoco Piano",
+
+  "eco": "C50",
+
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    "Bc5"
+  ]
+},
+{
+  "id": "giuoco_pianissimo",
+  "parent": "giuoco_piano",
+  "category": "openings",
+  "name_en": "giuoco_pianissimo",
+  "name_el": "giuoco pianissimo",
+
+  "difficulty": 1,
+
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    "Bc5",
+    "c3",
+    "Nf6",
+    "d3"
+  ]
+},
+
+{
+  "id": "two_knights_defense",
+  "category": "openings",
+
+  "parent": "italian_game",
+
+  "name_en": "Two Knights Defense",
+  "name_el": "Άμυνα δύο ιπποτών",
+  "difficulty": 1,
+
+  "eco": "C55",
+
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    "Nf6"
+  ]
+},
+
   {
     "id": "scotch_game",
     "category": "openings",
