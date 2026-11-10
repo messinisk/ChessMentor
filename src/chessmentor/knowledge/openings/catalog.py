@@ -32,6 +32,7 @@ class OpeningCatalog:
                 name_el=item["name_el"],
                 eco=item["eco"],
                 moves=item["moves"],
+                parent=item.get("parent"),
             )
             for item in data
         ]

@@ -21,19 +21,28 @@
     "difficulty": 2
   },
   {
-    "id": "lucena",
-    "category": "endgames",
-    "name_en": "Lucena Position",
-    "name_el": "Θέση Λουτσένα",
-    "difficulty": 3
-  },
+  "id": "lucena",
+  "category": "endgames",
+  "name_en": "Lucena Position",
+  "name_el": "Θέση Λουτσένα",
+  "difficulty": 3,
+  "pieces": [
+    "king",
+    "rook",
+    "pawn"
+  ]
+},
   {
-    "id": "philidor",
-    "category": "endgames",
-    "name_en": "Philidor Position",
-    "name_el": "Θέση Φιλιντόρ",
-    "difficulty": 3
-  },
+  "id": "philidor",
+  "category": "endgames",
+  "name_en": "Philidor Position",
+  "name_el": "Θέση Φιλιντόρ",
+  "difficulty": 3,
+  "pieces": [
+    "king",
+    "rook"
+  ]
+},
   {
     "id": "rook_endgame",
     "category": "endgames",

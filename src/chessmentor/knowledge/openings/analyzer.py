@@ -9,6 +9,7 @@ from chessmentor.knowledge.openings.rules import (
 from chessmentor.models.opening import Opening
 
 
+# pylint: disable=too-few-public-methods
 class OpeningAnalyzer:
     """Opening analyzer."""
 
@@ -21,23 +22,16 @@ class OpeningAnalyzer:
     def detect(
     self,
     moves: list[str],
-) -> Opening | None:
+    ) -> Opening | None:
         """Detect opening."""
 
         best_match: Opening | None = None
 
         for opening in self.catalog.load():
 
-            if moves_match(
-                moves,
-                opening.moves,
-            ):
-
-                if (
-                    best_match is None
-                    or len(opening.moves)
-                    > len(best_match.moves)
-                ):
-                    best_match = opening
+            if moves_match(moves, opening.moves) and \
+                (best_match is None or len(opening.moves)\
+                 > len(best_match.moves)):
+                best_match = opening
 
         return best_match

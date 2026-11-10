@@ -4,7 +4,10 @@
     "category": "strategy",
     "name_en": "Isolated Pawn",
     "name_el": "Απομονωμένο Πιόνι",
-    "difficulty": 2
+    "difficulty": 2,
+  "themes": [
+    "pawn_structure"
+  ]
   },
   {
     "id": "doubled_pawns",
@@ -60,7 +63,13 @@
     "category": "strategy",
     "name_en": "Outpost",
     "name_el": "Φυλάκιο",
-    "difficulty": 2
+    "difficulty": 2,
+
+  "themes": [
+    "knight",
+    "space",
+    "weak_square"
+  ]
   },
   {
     "id": "weak_square",

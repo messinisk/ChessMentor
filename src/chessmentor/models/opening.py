@@ -10,5 +10,5 @@ class Opening:
     name_en: str
     name_el: str
     moves: list[str]
-    eco: str | None = None  
+    eco: str | None = None
     parent: str | None = None

@@ -4,7 +4,11 @@
     "category": "tactics",
     "name_en": "Fork",
     "name_el": "Πιρούνι",
-    "difficulty": 1
+    "difficulty": 1,
+    "tags": [
+  "knight",
+  "double_attack"
+]
   },
   {
     "id": "pin",
@@ -200,7 +204,11 @@
     "category": "tactics",
     "name_en": "Back Rank Mate",
     "name_el": "Ματ Πίσω Γραμμής",
-    "difficulty": 1
+    "difficulty": 1,
+  "tags": [
+    "mate",
+    "rook"
+  ]
   },
   {
     "id": "smothered_mate",

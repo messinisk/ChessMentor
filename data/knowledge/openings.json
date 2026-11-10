@@ -1,15 +1,79 @@
 [
   {
-    "id": "ruy_lopez",
-    "category": "openings",
-    "name_en": "Ruy Lopez",
-    "name_el": "Ρουί Λόπεζ",
-    "difficulty": 2,
-    "eco": "C33",
-    "moves": [
-      "e4", "e5", "Nf3", "Nc6" , "Bb5"
-    ]
-  },
+  "id": "ruy_lopez",
+  "category": "openings",
+  "parent": null,
+  "name_en": "Ruy Lopez",
+  "name_el": "Ισπανική Παρτίδα",
+  "difficulty": 2,
+  "eco": "C60",
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5"
+  ]
+},
+{
+  "id": "closed_ruy_lopez",
+  "category": "openings",
+  "parent": "ruy_lopez",
+  "name_en": "Closed Defense",
+  "name_el": "Κλειστή Άμυνα",
+  "difficulty": 3,
+  "eco": "C84",
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5",
+    "a6",
+    "Ba4",
+    "Nf6",
+    "O-O",
+    "Be7"
+  ]
+},{
+  "id": "exchange_variation",
+  "category": "openings",
+  "parent": "ruy_lopez",
+  "name_en": "Exchange Variation",
+  "name_el": "Παραλλαγή Ανταλλαγής",
+  "difficulty": 2,
+  "eco": "C68",
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5",
+    "a6",
+    "Bxc6"
+  ]
+},
+{
+  "id": "ruy_lopez_open_defense",
+  "parent": "ruy_lopez",
+  "eco": "C80",
+  "category": "openings",
+  "name_en": "Open Defense",
+  "name_el": "Ανοιχτή Άμυνα",
+  "difficulty": 3,
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5",
+    "a6",
+    "Ba4",
+    "Nf6",
+    "O-O",
+    "Nxe4"
+  ]
+},
   {
   "id": "italian_game",
   "eco": "C50",
@@ -49,7 +113,7 @@
 },
 {
   "id": "giuoco_pianissimo",
-  "parent": "giuoco_piano",
+  "parent": "italian_game",
   "category": "openings",
   "name_en": "giuoco_pianissimo",
   "name_el": "giuoco pianissimo",
