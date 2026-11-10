@@ -177,34 +177,52 @@
     "d3"
   ]
 },
-
+{
+  "id": "scotch_game",
+  "category": "openings",
+  "parent": null,
+  "name_en": "Scotch Game",
+  "name_el": "Σκωτσική Παρτίδα",
+  "difficulty": 2,
+  "eco": "C44",
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "d4"
+  ]
+},{
+  "id": "scotch_game_classical",
+  "category": "openings",
+  "parent": "scotch_game",
+  "name_en": "Scotch Game Classical",
+  "name_el": "Σκωτσική Κλασική",
+  "difficulty": 2,
+  "eco": "C45",
+  "moves": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "d4",
+    "exd4",
+    "Nxd4"
+  ]
+},
   {
-    "id": "scotch_game",
-    "category": "openings",
-    "name_en": "Scotch Game",
-    "name_el": "Σκωτσέζικη Παρτίδα",
-    "difficulty": 2,
-    "eco": "C45",
-    "moves": [
-      "e4",
-      "e5",
-      "Nf3",
-      "Nc6",
-      "d4"
-    ]
-  },
-  {
-    "id": "sicilian_defense",
-    "category": "openings",
-    "name_en": "Sicilian Defense",
-    "name_el": "Σικελική Άμυνα",
-    "difficulty": 3,
-    "eco": "B20",
-    "moves": [
-      "e4",
-      "c5"
-    ]
-  },
+  "id": "sicilian_defense",
+  "category": "openings",
+  "parent": null,
+  "name_en": "Sicilian Defense",
+  "name_el": "Σικελική Άμυνα",
+  "difficulty": 2,
+  "eco": "B20",
+  "moves": [
+    "e4",
+    "c5"
+  ]
+},
   {
     "id": "Sicilian Open Variation",
     "category": "openings",
@@ -266,38 +284,487 @@
     ]
   },
   {
-    "id": "french_defense",
-    "category": "openings",
-    "name_en": "French Defense",
-    "name_el": "Γαλλική Άμυνα",
-    "difficulty": 2,
-    "eco": "C00",
-    "moves": [
-      "e4",
-      "e6 "
-    ]
-  },
+  "id": "french_defense",
+  "category": "openings",
+  "parent": null,
+  "name_en": "French Defense",
+  "name_el": "Γαλλική Άμυνα",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6"
+  ]
+},
   {
-    "id": "caro_kann",
-    "category": "openings",
-    "name_en": "Caro-Kann Defense",
-    "name_el": "Άμυνα Κάρο-Καν",
-    "difficulty": 2,
-    "eco": "A11",
-    "moves": ["e4", "c6"]
-  },
+  "id": "Steiner variation",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, Steiner variation",
+  "name_el": "Γαλλική Άμυνα",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "c4"
+  ]
+},
   {
-    "id": "queens_gambit",
-    "category": "openings",
-    "name_en": "Queen's Gambit",
-    "name_el": "Γκαμπί της Βασίλισσας",
-    "difficulty": 2,
-    "eco": "D30",
-    "moves": [
-      "d4",
-      "d5",
-      "c4",
-      "e6"
+  "id": "Chigorin variation",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, Chigorin variation",
+  "name_el": "Γαλλική Άμυνα, Chigorin variation",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "Qe2"
+  ]
+},
+{
+  "id": "King's Indian attack",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, King's Indian attack",
+  "name_el": "Γαλλική Άμυνα, King's Indian attack",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "d3"
+  ]
+},
+{
+  "id": "Lengfellner system",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, Lengfellner system",
+  "name_el": "Γαλλική Άμυνα, Lengfellner system",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "d4",
+    "d6"
+  ]
+},
+{
+  "id": "St. George defence",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, St. George defence",
+  "name_el": "Γαλλική Άμυνα, St. George defence",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "d4",
+    "a6"
+  ]
+},
+{
+  "id": "Schlechter variation",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, Schlechter variation",
+  "name_el": "Γαλλική Άμυνα, Schlechter variation",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "d4",
+    "d5",
+    "Bd3"
+  ]
+},
+{
+  "id": "Alapin variation",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, Alapin variation",
+  "name_el": "Γαλλική Άμυνα, Alapin variation",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "d4",
+    "d5",
+    "Be3"
+  ]
+},
+{
+  "id": "Alapin variation",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, Alapin variation",
+  "name_el": "Γαλλική Άμυνα, Alapin variation",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "d3",
+    "d5",
+    "Nd2",
+    "Nf6",
+    "Ngf3",
+    "Nc6",
+    "Be2"
+  ]
+},
+  {
+  "id": "Reti (Spielmann) variation",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence, Reti (Spielmann) variation",
+  "name_el": "Γαλλική Άμυνα -Reti",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "b3"
+  ]
+},
+{
+  "id": " Steinitz attack",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence,  Steinitz attack",
+  "name_el": "Γαλλική Άμυνα -Steinitz attack",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "e5"
+  ]
+},
+{
+  "id": "Labourdonnais variation",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence,  Labourdonnais variation",
+  "name_el": "Γαλλική Άμυνα - Labourdonnais variation",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "f4"
+  ]
+},
+{
+  "id": "Pelikan variation",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence,  Pelikan variation",
+  "name_el": "Γαλλική Άμυνα - Pelikan variation",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "Nc3",
+    "d5",
+    "f4"
+  ]
+},
+{
+  "id": "Two knights variation",
+  "category": "openings",
+  "parent": "Pelikan variation",
+  "name_en": "French defence,  Two knights variation",
+  "name_el": "Γαλλική Άμυνα - Two knights variation",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "Nc3",
+    "d5",
+    "Nf3"
+  ]
+},
+{
+  "id": "Wing gambit",
+  "category": "openings",
+  "parent": "french_defense",
+  "name_en": "French defence,  Wing gambit",
+  "name_el": "Γαλλική Άμυνα - Wing gambit",
+  "difficulty": 2,
+  "eco": "C00",
+  "moves": [
+    "e4",
+    "e6",
+    "Nf3",
+    "d5",
+    "e5",
+    "c5",
+    "b4"
     ]
-  }
+},
+ {
+  "id": "caro_kann_defense",
+  "category": "openings",
+  "parent": null,
+  "name_en": "Caro-Kann Defense",
+  "name_el": "Άμυνα Κάρο-Καν",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5"
+  ]
+},
+ {
+  "id": "Advance Variation",
+  "category": "openings",
+  "parent": "caro_kann_defense",
+  "name_en": "Caro-Kann, Advance Variation",
+  "name_el": "Άμυνα Κάρο-Καν , Εκ των προτέρων παραλλαγή",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "e5"
+  ]
+},
+ {
+  "id": "Fantasy Variation",
+  "category": "openings",
+  "parent": "caro_kann_defense",
+  "name_en": "Caro-Kann, Fantasy Variation",
+  "name_el": "Άμυνα Κάρο-Καν ,Παραλλαγή φαντασίας",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "f3"
+  ]
+},
+{
+  "id": "Classical Variation 1",
+  "category": "openings",
+  "parent": "caro_kann_defense",
+  "name_en": "Caro-Kann Classical Variation",
+  "name_el": "Άμυνα Κάρο-Καν Κλασική παραλλαγή",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "Nc3",
+    "dxe4",
+    "Nxe4"
+  ]
+},
+{
+  "id": "Classical Variation 2",
+  "category": "openings",
+  "parent": "caro_kann_defense",
+  "name_en": "Caro-Kann Classical Variation",
+  "name_el": "Άμυνα Κάρο-Καν Κλασική παραλλαγή",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "Nd2",
+    "dxe4",
+    "Nxe4"
+  ]
+},
+{
+  "id": "Karpov Variation",
+  "category": "openings",
+  "parent": "Classical Variation 2",
+  "name_en": "Caro-Kann, Karpov Variation",
+  "name_el": "Άμυνα Κάρο-Καν Karpov παραλλαγή",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "Nd2",
+    "dxe4",
+    "Nxe4",
+    "Nd7"
+  ]
+},
+{
+  "id": "Two Knights Variation 1",
+  "category": "openings",
+  "parent": "caro_kann_defense",
+  "name_en": "Caro-Kann, Two Knights 1",
+  "name_el": "Άμυνα Κάρο-Καν KTwo Knights παραλλαγή 1",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "Nc3",
+    "d5",
+    "Nf3"
+  ]
+},
+{
+  "id": "Two Knights Variation 2",
+  "category": "openings",
+  "parent": "caro_kann_defense",
+  "name_en": "Caro-Kann, Two Knights 2",
+  "name_el": "Άμυνα Κάρο-Καν Two Knights παραλλαγή 2",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "Nf3",
+    "d5",
+    "Nc3"
+  ]
+},
+{
+  "id": "Exchange Variation",
+  "category": "openings",
+  "parent": "caro_kann_defense",
+  "name_en": "Caro-Kann Defense",
+  "name_el": "Άμυνα Κάρο-Καν, βαριαντα ανταλαγης",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "exd5",
+    "cxd5"
+  ]
+},
+{
+  "id": "Panov-Botvinnik Attack",
+  "category": "openings",
+  "parent": "Exchange Variation",
+  "name_en": "Caro-Kann Panov-Botvinnik Attack",
+  "name_el": "Άμυνα Κάρο-Καν, Επίθεση Panov Botvinnik",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "exd5",
+    "cxd5",
+    "c4"
+  ]
+},
+  {
+  "id": "queens_gambit",
+  "category": "openings",
+  "parent": null,
+  "name_en": "Queen's Gambit",
+  "name_el": "Γκαμπί της Βασίλισσας",
+  "difficulty": 2,
+  "eco": "D06",
+  "moves": [
+    "d4",
+    "d5",
+    "c4"
+  ]
+},{
+  "id": "slav_defense",
+  "category": "openings",
+  "parent": "queens_gambit",
+  "name_en": "Slav Defense",
+  "name_el": "Σλαβική Άμυνα",
+  "difficulty": 2,
+  "eco": "D10",
+  "moves": [
+    "d4",
+    "d5",
+    "c4",
+    "c6"
+  ]
+},{
+  "id": "kings_indian_defense",
+  "category": "openings",
+  "parent": null,
+  "name_en": "King's Indian Defense",
+  "name_el": "Ινδική του Βασιλιά",
+  "difficulty": 3,
+  "eco": "E60",
+  "moves": [
+    "d4",
+    "Nf6",
+    "c4",
+    "g6"
+  ]
+},
+{
+  "id": "english_opening",
+  "category": "openings",
+  "parent": null,
+  "name_en": "English Opening",
+  "name_el": "Αγγλικό Άνοιγμα",
+  "difficulty": 2,
+  "eco": "A10",
+  "moves": [
+    "c4"
+  ]
+},
+{
+  "id": "london_system",
+  "category": "openings",
+  "parent": null,
+  "name_en": "London System",
+  "name_el": "Σύστημα Λονδίνου",
+  "difficulty": 1,
+  "eco": "D02",
+  "moves": [
+    "d4",
+    "d5",
+    "Nf3",
+    "Nf6",
+    "Bf4"
+  ]
+}, 
+{
+"id": " King's Indian, London system",
+  "category": "openings",
+  "parent": "London System",
+  "name_en": "King's Indian, London system",
+  "name_el": "Ινδική του Βασιλιά, Σύστημα Λονδίνου",
+  "difficulty": 1,
+  "eco": "A48",
+  "moves": [
+    "d4",
+    "Nf6",
+    "Nf3",
+    "g6",
+    "Bf4"
+  ]
+}
 ]
