@@ -135,10 +135,70 @@
     "name_en": "Sicilian Defense",
     "name_el": "Σικελική Άμυνα",
     "difficulty": 3,
-    "eco": null,
+    "eco": "B20",
     "moves": [
       "e4",
       "c5"
+    ]
+  },
+  {
+    "id": "Sicilian Open Variation",
+    "category": "openings",
+    "parent": "sicilian_defense",
+    "name_en": "Sicilian Defense: Open Variation",
+    "name_el": "Σικελική άμυνα: Ανοιχτή παραλλαγή",
+    "difficulty": 3,
+    "eco": "B54",
+    "moves": [
+      "e4", "c5", "Nf3", "d6", "d4", "cxd4", "Nxd4"
+    ]
+  },
+  {
+    "id": "Old Sicilian",
+    "category": "openings",
+    "parent": "sicilian_defense",
+    "name_en": "Sicilian Defense: Old Sicilian",
+    "name_el": "Σικελική άμυνα: Παλαιά Σικελίκη",
+    "difficulty": 3,
+    "eco": "B30",
+    "moves": [
+      "e4", "c5", "Nf3", "Nc6"
+    ]
+  },
+    {
+    "id": "Sicilian Defense: Open",
+    "category": "openings",
+    "parent": "sicilian_defense",
+    "name_en": "Sicilian Defense: Open",
+    "name_el": "Σικελική άμυνα: Open",
+    "difficulty": 3,
+    "eco": "B32",
+    "moves": [
+      "e4", "c5", "Nf3", "Nc6","d4"
+    ]
+  },
+    {
+    "id": "French Variation",
+    "category": "openings",
+    "parent": "sicilian_defense",
+    "name_en": "Sicilian Defense:French Variation",
+    "name_el": "Σικελική άμυνα: Γαλλική παραλλαγή",
+    "difficulty": 3,
+    "eco": "B40",
+    "moves": [
+      "e4", "c5", "Nf3", "e6"
+    ]
+  },
+    {
+    "id": "Najdorf Variation",
+    "category": "openings",
+    "parent": "sicilian_defense",
+    "name_en": "Sicilian Defense:Najdorf Variation",
+    "name_el": "Σικελική άμυνα: Παραλλαγή Najdorf",
+    "difficulty": 3,
+    "eco": "B90",
+    "moves": [
+      "e4", "c5", "Nf3", "d6", "d4", "cxd4", "Nxd4", "Nf6", "Nc3", "a6"
     ]
   },
   {
