@@ -236,7 +236,7 @@
     ]
   },
   {
-    "id": "Old Sicilian",
+    "id": "Old_Sicilian",
     "category": "openings",
     "parent": "sicilian_defense",
     "name_en": "Sicilian Defense: Old Sicilian",
@@ -248,7 +248,7 @@
     ]
   },
     {
-    "id": "Sicilian Defense: Open",
+    "id": "Sicilian_Defense_Open",
     "category": "openings",
     "parent": "sicilian_defense",
     "name_en": "Sicilian Defense: Open",
@@ -260,7 +260,7 @@
     ]
   },
     {
-    "id": "French Variation",
+    "id": "French_Variation",
     "category": "openings",
     "parent": "sicilian_defense",
     "name_en": "Sicilian Defense:French Variation",
@@ -272,7 +272,7 @@
     ]
   },
     {
-    "id": "Najdorf Variation",
+    "id": "Najdorf_Variation",
     "category": "openings",
     "parent": "sicilian_defense",
     "name_en": "Sicilian Defense:Najdorf Variation",
@@ -297,7 +297,7 @@
   ]
 },
   {
-  "id": "Steiner variation",
+  "id": "Steiner_variation",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, Steiner variation",
@@ -311,7 +311,7 @@
   ]
 },
   {
-  "id": "Chigorin variation",
+  "id": "Chigorin_variation",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, Chigorin variation",
@@ -325,7 +325,7 @@
   ]
 },
 {
-  "id": "King's Indian attack",
+  "id": "King's_Indian_attack",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, King's Indian attack",
@@ -339,7 +339,7 @@
   ]
 },
 {
-  "id": "Lengfellner system",
+  "id": "Lengfellner_system",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, Lengfellner system",
@@ -354,7 +354,7 @@
   ]
 },
 {
-  "id": "St. George defence",
+  "id": "St.George_defence",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, St. George defence",
@@ -369,7 +369,7 @@
   ]
 },
 {
-  "id": "Schlechter variation",
+  "id": "Schlechter_variation",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, Schlechter variation",
@@ -385,7 +385,7 @@
   ]
 },
 {
-  "id": "Alapin variation",
+  "id": "Alapin_variation",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, Alapin variation",
@@ -401,7 +401,7 @@
   ]
 },
 {
-  "id": "Alapin variation",
+  "id": "Reversed_Philidor_formation",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, Alapin variation",
@@ -421,7 +421,7 @@
   ]
 },
   {
-  "id": "Reti (Spielmann) variation",
+  "id": "Reti_variation",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence, Reti (Spielmann) variation",
@@ -435,11 +435,11 @@
   ]
 },
 {
-  "id": " Steinitz attack",
+  "id": " Steinitz_attack",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence,  Steinitz attack",
-  "name_el": "Γαλλική Άμυνα -Steinitz attack",
+  "name_el": "Γαλλική Άμυνα, Steinitz attack",
   "difficulty": 2,
   "eco": "C00",
   "moves": [
@@ -449,7 +449,7 @@
   ]
 },
 {
-  "id": "Labourdonnais variation",
+  "id": "Labourdonnais_variation",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence,  Labourdonnais variation",
@@ -463,7 +463,7 @@
   ]
 },
 {
-  "id": "Pelikan variation",
+  "id": "Pelikan_variation",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence,  Pelikan variation",
@@ -479,9 +479,9 @@
   ]
 },
 {
-  "id": "Two knights variation",
+  "id": "Two_knights_variation",
   "category": "openings",
-  "parent": "Pelikan variation",
+  "parent": "Pelikan_variation",
   "name_en": "French defence,  Two knights variation",
   "name_el": "Γαλλική Άμυνα - Two knights variation",
   "difficulty": 2,
@@ -495,7 +495,7 @@
   ]
 },
 {
-  "id": "Wing gambit",
+  "id": "Wing_gambit",
   "category": "openings",
   "parent": "french_defense",
   "name_en": "French defence,  Wing gambit",
@@ -528,7 +528,7 @@
   ]
 },
  {
-  "id": "Advance Variation",
+  "id": "Advance_Variation",
   "category": "openings",
   "parent": "caro_kann_defense",
   "name_en": "Caro-Kann, Advance Variation",
@@ -544,7 +544,7 @@
   ]
 },
  {
-  "id": "Fantasy Variation",
+  "id": "Fantasy_Variation",
   "category": "openings",
   "parent": "caro_kann_defense",
   "name_en": "Caro-Kann, Fantasy Variation",
@@ -560,7 +560,7 @@
   ]
 },
 {
-  "id": "Classical Variation 1",
+  "id": "Classical_Variation 1",
   "category": "openings",
   "parent": "caro_kann_defense",
   "name_en": "Caro-Kann Classical Variation",
@@ -578,7 +578,7 @@
   ]
 },
 {
-  "id": "Classical Variation 2",
+  "id": "Classical_Variation 2",
   "category": "openings",
   "parent": "caro_kann_defense",
   "name_en": "Caro-Kann Classical Variation",
@@ -596,26 +596,7 @@
   ]
 },
 {
-  "id": "Karpov Variation",
-  "category": "openings",
-  "parent": "Classical Variation 2",
-  "name_en": "Caro-Kann, Karpov Variation",
-  "name_el": "Άμυνα Κάρο-Καν Karpov παραλλαγή",
-  "difficulty": 2,
-  "eco": "B10",
-  "moves": [
-    "e4",
-    "c6",
-    "d4",
-    "d5",
-    "Nd2",
-    "dxe4",
-    "Nxe4",
-    "Nd7"
-  ]
-},
-{
-  "id": "Two Knights Variation 1",
+  "id": "Two_Knights_Variation 1",
   "category": "openings",
   "parent": "caro_kann_defense",
   "name_en": "Caro-Kann, Two Knights 1",
@@ -631,7 +612,27 @@
   ]
 },
 {
-  "id": "Two Knights Variation 2",
+  "id": "Karpov_Variation",
+  "category": "openings",
+  "parent": "Classical_Variation_2",
+  "name_en": "Caro-Kann, Karpov Variation",
+  "name_el": "Άμυνα Κάρο-Καν Karpov παραλλαγή",
+  "difficulty": 2,
+  "eco": "B10",
+  "moves": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "Nd2",
+    "dxe4",
+    "Nxe4",
+    "Nd7"
+  ]
+},
+
+{
+  "id": "Classical_Variation_2",
   "category": "openings",
   "parent": "caro_kann_defense",
   "name_en": "Caro-Kann, Two Knights 2",
@@ -647,7 +648,7 @@
   ]
 },
 {
-  "id": "Exchange Variation",
+  "id": "Exchange_Variation",
   "category": "openings",
   "parent": "caro_kann_defense",
   "name_en": "Caro-Kann Defense",
@@ -664,9 +665,9 @@
   ]
 },
 {
-  "id": "Panov-Botvinnik Attack",
+  "id": "Panov_Botvinnik_Attack",
   "category": "openings",
-  "parent": "Exchange Variation",
+  "parent": "exchange_variation",
   "name_en": "Caro-Kann Panov-Botvinnik Attack",
   "name_el": "Άμυνα Κάρο-Καν, Επίθεση Panov Botvinnik",
   "difficulty": 2,
@@ -752,9 +753,9 @@
   ]
 }, 
 {
-"id": " King's Indian, London system",
+  "id": "King's Indian system",
   "category": "openings",
-  "parent": "London System",
+  "parent": "london_system",
   "name_en": "King's Indian, London system",
   "name_el": "Ινδική του Βασιλιά, Σύστημα Λονδίνου",
   "difficulty": 1,
